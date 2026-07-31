@@ -1,4 +1,4 @@
 [mcp_servers.Credos]
 url = "https://mcp.credos.dev"
 bearer_token_env_var = "CREDOS_MCP_API_KEY"
-http_headers = { "Accept" = "application/json, text/event-stream" }
+http_headers = { "Accept" = "application/json, text/event-stream", "Credos-Release" = "<release-name>" }

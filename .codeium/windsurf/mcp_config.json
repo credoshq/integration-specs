@@ -4,7 +4,8 @@
       "serverUrl": "https://mcp.credos.dev",
       "headers": {
         "Authorization": "Bearer ${CREDOS_MCP_API_KEY}",
-        "Accept": "application/json, text/event-stream"
+        "Accept": "application/json, text/event-stream",
+        "Credos-Release": "<release-name>"
       }
     }
   }
