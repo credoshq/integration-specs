@@ -1,0 +1,17 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "servers": {
+      "Credos": {
+        "type": "remote",
+        "url": "https://mcp.credos.dev",
+        "oauth": false,
+        "headers": {
+          "Authorization": "Bearer {env:CREDOS_MCP_API_KEY}",
+          "Accept": "application/json, text/event-stream",
+          "Credos-Release": "<release-name>",
+        },
+      },
+    },
+  },
+}
